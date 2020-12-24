@@ -1,7 +1,7 @@
 
 
 
-body, html,H1
+body, html
 {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -20,6 +20,7 @@ body, html,H1
 #w{background-color:#AFA;}
 #bt{background-color:#A44;}
 div{font-weight:bold;}
+table{display:inline-block;}
 
 #bt:hover
 {
@@ -33,7 +34,7 @@ div{font-weight:bold;}
 	max-height:100vmin;
 }
 
-table
+#cT
 {
 	margin-left:auto;
 	margin-right:auto;
