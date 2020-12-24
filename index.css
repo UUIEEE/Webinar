@@ -18,6 +18,11 @@ body, html
 #bt{background-color:#A44;}
 div{font-weight:bold;}
 table{display:inline-block;}
+#dT
+{
+	margin-left:16px;
+	font-size:25px;
+}
 
 #bt:hover
 {
