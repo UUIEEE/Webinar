@@ -1,6 +1,3 @@
-
-
-
 body, html
 {
 	-webkit-touch-callout: none;
@@ -69,6 +66,7 @@ table{display:inline-block;}
 
 #pmt
 {
+	display:none;
 	position:fixed;
 	z-index:10;
 	width:80vw;
