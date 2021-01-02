@@ -1,7 +1,7 @@
 
 
 
-body, html,#w
+body, html
 {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -9,17 +9,20 @@ body, html,#w
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+.f,body
+{
 	text-align: center;
 	vertical-align: middle;
     font-family: 'Roboto', sans-serif;
 	background-color:#c5e5fc;
 }
 
-#bt,#pmt,input{font-size:40px;}
+#bt,#pmt,.f{font-size:40px;}
 #l{background-color:#FAA;}
 #w{background-color:#AFA;}
 #bt{background-color:#A44;}
-input{font-weight:bold;}
+.f{font-weight:bold;}
 table{display:inline-block;}
 
 #dT
@@ -73,7 +76,7 @@ table{display:inline-block;}
     background-size: cover;
 }
 
-#w, #l
+.f
 {
 	z-index:0;
 	width:60vw;
