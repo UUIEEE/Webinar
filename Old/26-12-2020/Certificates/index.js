@@ -1,9 +1,8 @@
 
 
-dc=document;
-bdy=()=>{}
+
 gto=a=>{window.open(a,'_blank')}
-gebi=(a)=>{return dc.getElementById(a)}
+gebi=(a)=>{return document.getElementById(a)}
 hsh=(s="")=>{
 	let i=h=0
 	for(;i<s.length;++i)
