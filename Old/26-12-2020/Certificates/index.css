@@ -1,0 +1,96 @@
+
+
+
+body, html,#w
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+	vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+	background-color:#c5e5fc;
+}
+
+#bt,#pmt,input{font-size:40px;}
+#l{background-color:#FAA;}
+#w{background-color:#AFA;}
+#bt{background-color:#A44;}
+input{font-weight:bold;}
+table{display:inline-block;}
+
+#dT
+{
+	margin-left:16px;
+	font-size:25px;
+}
+
+#bt:hover
+{
+	color:#FFF;
+	background-color:#F11;
+}
+
+#lg
+{
+	max-width:100vmin;
+	max-height:100vmin;
+}
+
+#cT
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.cb
+{
+	background-color:#000;
+	width:0.1px;
+}
+
+.im
+{
+	height:15vmin;
+	width:25vw;
+	padding:5px;
+}
+
+.co
+{
+	height:8vmin;
+	width:8vmin;
+	padding:5px;
+}
+
+.Hdim
+{
+    height: 100%;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+#w, #l
+{
+	z-index:0;
+	width:60vw;
+	padding: 2.5vmin;
+	border-radius:5vmin;
+	margin-left:*;
+	margin-right:*;
+}
+
+#l:hover
+{
+	background-color:#D66;
+	color:#DDD;
+}
+
+#l:active
+{
+	background-color:#A44;
+	color:#FFF;
+}
